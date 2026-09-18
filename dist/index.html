@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#F7F2E8" />
+  <meta name="description" content="Connaître, comprendre, mémoriser, retrouver et appliquer la Bible." />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <title>Il est écrit…</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css?v=5" />
+  <link rel="stylesheet" href="./assets/identity.css?v=6" />
+</head>
+<body>
+  <a class="skip" href="#app">Aller au contenu</a>
+  <div id="splash" class="splash" aria-live="polite"><div><strong>IL EST ÉCRIT…</strong><span>Jusqu’à ce que la Parole devienne un réflexe.</span></div></div>
+  <div class="shell">
+    <aside class="side-brand" aria-label="Identité de l’application">
+      <div class="brand-mark">IÉ</div>
+      <div><div class="brand-name">Il est écrit…</div><p>Jusqu’à ce que la Parole<br>devienne un réflexe.</p></div>
+    </aside>
+    <main id="app" tabindex="-1"></main>
+    <nav class="bottom-nav" aria-label="Navigation principale">
+      <button data-route="today" aria-label="Aujourd’hui"><span><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-8H9v8H4a1 1 0 0 1-1-1z"/></svg></span><em>Aujourd’hui</em></button>
+      <button data-route="written" aria-label="Il est écrit"><span><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 6.2L21 12l-6.2 2.8L12 21l-2.8-6.2L3 12l6.2-2.8z"/></svg></span><em>Il est écrit</em></button>
+      <button data-route="bible" aria-label="Bible"><span><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7v14m0-14C9 4 5 4 2 5v15c3-1 7-1 10 1 3-2 7-2 10-1V5c-3-1-7-1-10 2Z"/></svg></span><em>Bible</em></button>
+      <button data-route="paths" aria-label="Parcours"><span><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="5" r="2"/><path d="M8 5h9a4 4 0 0 1 0 8H7a4 4 0 0 0 0 8h9"/><path d="m14 18 3 3-3 3"/></svg></span><em>Parcours</em></button>
+      <button data-route="profile" aria-label="Moi"><span><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg></span><em>Moi</em></button>
+    </nav>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script defer src="./assets/boot.js?v=4"></script>
+  <script defer src="./assets/data.js?v=4"></script>
+  <script defer src="./assets/learning.js?v=1"></script>
+  <script defer src="./assets/auth.js?v=1"></script>
+  <script defer src="./assets/sync.js?v=1"></script>
+  <script defer src="./assets/app.js?v=8"></script>
+</body>
+</html>

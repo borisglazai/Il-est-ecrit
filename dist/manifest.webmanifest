@@ -1,0 +1,10 @@
+{
+  "name": "Il est écrit…",
+  "short_name": "Il est écrit",
+  "description": "Jusqu’à ce que la Parole devienne un réflexe.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F7F2E8",
+  "theme_color": "#B9924A",
+  "lang": "fr"
+}
